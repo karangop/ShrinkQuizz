@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cl.karangop.shrinkquizz.views.tabs.LuckyFragment">
+
+    <CheckBox
+        android:button="@drawable/cb_bg_mood"
+        android:id="@+id/happyCb"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:enabled="false"/>
+
+    <CheckBox
+        android:id="@+id/inputCb"
+        android:layout_below="@+id/happyCb"
+        android:text="¿Estás feliz?"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/sendBtn"
+        android:layout_marginBottom="54dp"
+        android:layout_alignParentBottom="true"
+        android:text="Enviar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
